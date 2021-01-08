@@ -48,7 +48,7 @@
                 <li><a href="#products-section" class="nav-link">Products</a></li>
                 <li><a href="{{ url('frontend/consultation/index') }}" class="nav-link">Consultation</a></li>
                 <li><a href="#about-section" class="nav-link">About Us</a></li>
-                <li><a href="#fanspage-section" class="nav-link">Fanspage FB</a></li>
+                <li><a href="#fanspage-section" class="nav-link">Instagram</a></li>
                 <li><a href="{{ url('frontend/cart/index') }}" class="nav-link">Cart <sup><span style="color: red">{{ $count_cart }}</span></sup></a></li>
                 <?php if (isset(auth()->user()->id)){ ?>
                 <li><form method="POST" action="{{ route('logout') }}">@csrf <button type="submit" class="btn">Logout</button></form></li>

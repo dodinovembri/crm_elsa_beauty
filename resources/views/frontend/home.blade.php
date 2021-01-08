@@ -93,20 +93,18 @@
     </div>
 
     <div class="site-section bg-light" id="fanspage-section">
+    <div class="site-blocks-cover inner-page-cover overlay get-notification"  style="background-image: url({{ asset('img/instagram.jpg') }}); background-attachment: fixed;" data-aos="fade">
       <div class="container">
-        <div class="row mb-5">
-          <div class="col-12 text-center">
-            <h2 class="section-title mb-3">Our Fanspage</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-7 mb-5">
 
-          </div>
-        
+        <div class="row align-items-center justify-content-center">
+          <form class="col-md-7" method="post">
+            <h2>Our Instagram.</h2>
+            <p>Visit our instagram at <a href="https://www.instagram.com/elsha_beauty_house/?hl=en" target="_blank"><span style="color: black;">Elsha Beauty House</span></a></p>
+          </form>
         </div>
-        
+
       </div>
+    </div>
     </div>    
 
   @include('frontend.templates.footer')
